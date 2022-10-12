@@ -1,6 +1,6 @@
 # utility-shell-scripts
 
-Some miscellaneous utility scripts I write to speed up activities
+Some miscellaneous utility z-shell scripts I write to speed up activities.
 
 ## VIDEO UTILITIES
 
