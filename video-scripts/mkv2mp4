@@ -1,0 +1,8 @@
+if [ "$#" -lt 1 ]
+then
+    echo "[mkv2mp4] Missing argument. Usage: mkv2mp4 <input file>"
+else
+    input_file="$1"
+    output_file="$2"
+    ffmpeg -i "$input_file" -codec copy "$input_file.mp4"    
+fi

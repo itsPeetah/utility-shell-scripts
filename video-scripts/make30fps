@@ -1,0 +1,7 @@
+if [ "$#" -lt 1 ]
+then
+    echo "[make30fps] Missing arguments. Usage: make30fps <input file>"
+else
+    input_file="$1"
+    ffmpeg -i "$input_file" -filter:v fps=30 "${input_file}_30fps.mp4"
+fi
